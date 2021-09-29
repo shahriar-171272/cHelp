@@ -80,3 +80,19 @@
 					  <option value="O-">O-</option>
 					</select>
 			    </div>
+				<div class="col">
+			      <label>Years of Experience in Nursing:(if any)</label>
+			      <input type="number" class="form-control" placeholder="Enter your experience" name="experience">
+			    </div>
+
+			    
+			  </div>
+
+			  <div class="row mt-4">
+
+			  	<div class="col">
+			      <label>Resume or CV:</label>
+			      <input type="file" class="form-control" name="fileToUpload">
+
+			      <?php 
+
