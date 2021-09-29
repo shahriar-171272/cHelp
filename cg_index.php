@@ -95,4 +95,22 @@
 			      <input type="file" class="form-control" name="fileToUpload">
 
 			      <?php 
+				if(isset($_GET['msg']))
+			      	{
+			      ?>	
+
+			      <span style="color: red;font-weight: 700;">Please insert PDF file only</span>
+
+			      <?php 
+			      	}
+
+			      ?>
+			    </div>
+
+			  	<div class="col">
+			      <label>Profile Picture:</label>
+			      <input type="file" class="form-control" name="fileToUploadpicture">
+
+			      <?php 
+
 
