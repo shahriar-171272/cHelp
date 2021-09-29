@@ -112,5 +112,19 @@
 			      <input type="file" class="form-control" name="fileToUploadpicture">
 
 			      <?php 
+					if(isset($_GET['msg']))
+			      	{
+			      ?>	
+
+			      <span style="color: red;font-weight: 700;">Please insert PICTURE file only</span>
+
+			      <?php 
+			      	}
+
+			      ?>
+			    </div>
+			  </div>
+			
+			</div>
 
 
