@@ -29,3 +29,45 @@
 		}
 
 	?>
+	
+
+<?php
+	
+	session_start();
+	$user=$_SESSION['user'];
+	
+
+	if(isset($_POST['btn-proceed_payment']))
+	{
+
+		$cylinder_table_id = $_POST['id'];
+		$user_id = $user['id'];
+		$os_id = $_POST['os_id'];
+		$cylinder_name = $_POST['cylinder_name'];
+		$type = $_POST['type'];
+		$price = $_POST['price'];
+		$address = $_POST['address'];
+		$quantity = $_POST['quantity'];
+
+		$total_price =(int)$quantity * (int)$price;
+	}
+?>
+
+
+
+<?php 
+	require '../db_config.php';
+
+	if (isset($_GET['id'])) {
+
+		$id = $_GET['id'];
+		$sql="select * from cylinder where id = '$id'";
+
+		$result = mysqli_query($db,$sql);
+		$data = mysqli_fetch_array($result, MYSQLI_ASSOC);
+		    
+	}
+
+
+?>
+	
