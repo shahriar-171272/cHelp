@@ -65,3 +65,18 @@
 			      <input type="text" class="form-control" placeholder="Enter Address" name="address">
 			    </div>
 			  </div>
+			 <div class="row mt-4">
+			    <div class="col">
+			      <label>Blood Group:</label>
+			      <select class="form-control" name="blood_group">
+			      	  <option >--Select Group--</option>
+			      	  <option value="AB+">AB+</option>
+					  <option value="AB-">AB-</option>
+					  <option value="A+">A+</option>
+					  <option value="A-">A-</option>
+					  <option value="B+">B+</option>
+					  <option value="B-">B-</option>
+					  <option value="O+">O+</option>
+					  <option value="O-">O-</option>
+					</select>
+			    </div>
