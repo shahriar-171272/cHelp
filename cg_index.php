@@ -29,3 +29,23 @@
 				</ol>
 			</div>
 		</div>
+               <div class="registration_form">
+			<h3 class="text-center">Registration Form</h3>
+			<form action="registration_backend.php" method="POST" enctype="multipart/form-data">
+				
+			  <div class="row">
+			    <div class="col">
+			      <label>Name:</label>
+			      <input type="text" class="form-control" placeholder="Enter name" name="name">
+			    </div>
+
+			    <div class="col">
+			      <label>Email:</label>
+			      <input type="email" class="form-control" placeholder="Enter email" name="email">
+			    </div>
+
+			    <div class="col">
+			      <label>Date of Birth:</label>
+			      <input type="date" class="form-control" placeholder="Enter Birth date" name="dob">
+			    </div>
+			  </div>
