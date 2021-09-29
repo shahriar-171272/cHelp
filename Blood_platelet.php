@@ -27,17 +27,18 @@
     </thead>
 <?php foreach($table as $row){ ?>
     <tbody>
+      <?php echo Hello World; ?>
         <tr>
         <th scope="row"><?php echo $row['name'] ?></th>
         <td><?php echo $row['phone'] ?></td>
         <td><?php echo $row['blood group'] ?></td>
         <?php if($row['STATUS']=='1'){ ?>
         <td>Active</td>
-        <?php } 
+        <?php }
         else
         { ?>
         <td>Inactive</td>
-        <?php     
+        <?php
         }
         ?>
         </tr>
