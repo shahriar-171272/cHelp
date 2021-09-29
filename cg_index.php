@@ -49,3 +49,19 @@
 			      <input type="date" class="form-control" placeholder="Enter Birth date" name="dob">
 			    </div>
 			  </div>
+            <div class="row mt-4">
+			    <div class="col">
+			      <label>Phone Number:</label>
+			      <input type="text" class="form-control" placeholder="Enter phone number" name="phone">
+			    </div>
+
+			    <div class="col">
+			      <label>NID:</label>
+			      <input type="text" class="form-control" placeholder="Enter NID no." name="nid">
+			    </div>
+
+			    <div class="col">
+			      <label>Address:</label>
+			      <input type="text" class="form-control" placeholder="Enter Address" name="address">
+			    </div>
+			  </div>
